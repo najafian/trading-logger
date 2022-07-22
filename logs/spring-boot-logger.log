@@ -1,0 +1,24 @@
+2022-07-22 22:52:49,794 WARN com.artingame.logger.LoggerController [http-nio-8083-exec-1] trading webhook result - {
+  "bool" : {
+    "must" : [
+      {
+        "match" : {
+          "categoryName" : {
+            "query" : "nameee",
+            "operator" : "OR",
+            "fuzziness" : "2",
+            "prefix_length" : 0,
+            "max_expansions" : 50,
+            "fuzzy_transpositions" : true,
+            "lenient" : false,
+            "zero_terms_query" : "NONE",
+            "auto_generate_synonyms_phrase_query" : true,
+            "boost" : 1.0
+          }
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}
