@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  trader-logger:
+    image: trader-logger-app:1
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /data/trader-logger-app
+      - ./logs/:/logs/
+    ports:
+      - "8083:8083"
