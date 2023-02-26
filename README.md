@@ -8,6 +8,4 @@ curl -X POST \
     "email_token" : 5645654ggdfgdfgdf-fsgdgf-fgdsgssdhs-dfsh",
     "delay_second" : 0,
     "action" : "close_at_market_price"
- }
-
-  '
+ }'
