@@ -9,3 +9,4 @@ curl -X POST \
     "delay_second" : 0,
     "action" : "close_at_market_price"
  }'
+Test
